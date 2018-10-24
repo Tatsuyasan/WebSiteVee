@@ -1,0 +1,156 @@
+@media (max-width: 480px)
+{
+   body{
+        overflow: auto;
+    }
+    img{
+        width:80%; 
+        position: absolute;
+        bottom: 0 ;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -600px;
+    }
+    .col-md-8 p{
+        position: relative;
+        padding-left: 60px;
+        top: 200px;
+    }
+    #trait{
+        position: relative;
+        top: 250px;
+        margin-left: 60px;
+    }
+    #glitch svg{
+        width: 400px;
+        position: relative;
+        padding-left:70px;
+        padding-right:5px;
+        
+    }
+    #glitch{
+        height: 150px;
+        width: 100%;
+        position: relative;
+        top: 200px;
+        text-align: center;
+    }
+    .res{
+        position: absolute;
+        top:600px;
+        left: 0px;
+        right: 0;
+        margin: auto;
+    }
+    #button{
+        display: block;
+        margin: 50px;
+        bottom: -45px;
+    }
+    #footer{
+        position: relative;
+        height: 100px;
+        bottom :-255px;
+    }
+    #footer img{
+        position: absolute;
+        top: 0;
+        height:100px;
+        width: 200px;
+    }
+    #footer img{
+        position: absolute;
+        height: 100px;
+            width:200px;
+    }
+    .col-md-2 ul{
+        transform: rotate(-90deg);
+        position: absolute;
+        top: -520px;
+    }
+    #hamburger{
+        display: block;
+    }
+}
+@media (min-width: 481px) and (max-width: 979px){
+    body{
+        overflow: auto;
+    }
+    img{
+        width:80%; 
+        position: absolute;
+        bottom: 0 ;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -555px;
+    }
+    .col-md-8 p{
+        position: relative;
+        padding-left: 60px;
+        top: 555px;
+    }
+    #trait{
+        position: relative;
+        top: 555px;
+        margin-left: 60px;
+    }
+    #glitch svg{
+        display: block;
+        width: 800px;
+        position: absolute;
+        padding-left:140px;
+        
+    }
+    #glitch{
+        height: 100px;
+        width: 100%;
+        position: relative;
+        top: 555px;
+        text-align: center;
+    }
+    .res{
+        top:560px;
+    }
+    #button{
+        display: block;
+        margin: 50px;
+        bottom: -45px;
+    }
+    #footer{
+        position:relative;
+        margin-top: 55px;
+        width: 100%;
+        height: 200px;
+        bottom: -430px;
+    }
+    .col-md-2 ul{
+        position: absolute;
+        transform: rotate(-90deg);
+        width: 15px;
+        left: 350px;
+        bottom: -195px;
+        
+    }
+    #footer img{
+        position: relative;
+        top: 0;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+    .res{
+        margin-left: 50px;
+    }
+    .col-md-2 ul{
+        position: absolute;
+        bottom: 180px;
+        left: 470px;
+    }
+    #footer img{
+        position: absolute;
+        margin-top: -130px;
+        margin-left: -190px;
+    }
+}

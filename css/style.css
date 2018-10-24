@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'proxinovaExtraBold';
+  src: url("../fonts/proxinova/ProximaNova-Extrabold - copie.otf");
+  font-weight: normal;
+    font-style: normal;}
+@font-face {
+  font-family: 'proxinovaRegular';
+  src: url("../fonts/proxinova/ProximaNova-Regular - copie.otf");
+  font-weight: normal;
+    font-style: normal;}
+@font-face {
+  font-family: 'proxinovaBold';
+  src: url("../fonts/proxinova/ProximaNova-Bold - copie.otf");
+  font-weight: normal;
+    font-style: normal;}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+a,p,li,h1,h2,h3{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: "proxinovaExtraBold",'Roboto', sans-serif;
+}
+#glitch{
+    margin-top: -25px;
+    margin-bottom: 50px;
+    letter-spacing: 22px; 
+    font-size: 65px;
+    font-family: "proxinovaExtraBold";
+}
+.col-md-9{
+    display: block;
+    margin: auto;
+    padding: inherit;
+}
+
+body{
+    
+    overflow: hidden;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 120%;
+    margin-left: -5px;
+}
+.col-md-12{
+    line-height: 100px;
+}
+.col-md-6{
+    line-height: 650px;
+}
+.col-md-10{
+    line-height: 650px;
+}
+.col-md-2{
+    margin-top:75px; 
+    padding-left: 80px;
+    display: block;
+    line-height: 130px;
+}
+.col-md-2 ul li{
+    text-align: center;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    height: 45px;
+    width: 80px;
+    margin: 40px;
+}
+.col-md-8{
+    line-height: 180px;
+}
+
+#trait{
+    margin-top: 100px;
+    margin-left: 0px;
+    top: 50px;
+    height: 1px;
+    width: 15px;
+    border-top: solid 1px;
+    border-color: white;   
+}
+
+.col-md-8 p{
+    margin: auto;
+    margin-top:-45px;
+}
+.col-md-7 ul li span{
+    color: #b1b1b1;
+}
+.col-md-7{
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 180px;
+    line-height: 20px;
+}
+#res1{
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+#res2{
+    position: absolute;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
+.res{
+    height: 130px;
+}
+
+#footer{
+    text-align: center;
+}
+#footer img{
+    margin-top: -20px;
+    width: 400px;
+    height: 200px;
+}
+#button{
+    background-color: white;
+    color: #1a1a1a;
+    line-height: 35px;
+    padding-right: 25px;
+    padding-left:25px;
+    position: absolute;
+    bottom: -45px;
+    left: 40px;
+}
+#button:hover{
+    text-decoration: none;
+    text-decoration: line-through;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    text-decoration: line-through;
+}
